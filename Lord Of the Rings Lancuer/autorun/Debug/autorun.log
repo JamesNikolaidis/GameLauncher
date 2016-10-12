@@ -1,0 +1,60 @@
+﻿Build started 21/2/2015 3:05:00 μμ.
+     1>Project "C:\Users\jim\Desktop\autorun\autorun\autorun.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\autorun.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         d:\New Folder\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\autorun.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.DirectoryServices.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt autorun.cpp Form13.cpp Form14.cpp Form2.cpp Form3.cpp Form5.cpp /clr:nostdlib 
+         autorun.cpp
+     1>c:\users\jim\desktop\autorun\autorun\Form9.h(207): warning C4566: character represented by universal-character-name '\u00E4' cannot be represented in the current code page (1253)
+     1>c:\users\jim\desktop\autorun\autorun\Form7.h(193): warning C4566: character represented by universal-character-name '\u00FC' cannot be represented in the current code page (1253)
+     1>c:\users\jim\desktop\autorun\autorun\Form7.h(193): warning C4566: character represented by universal-character-name '\u00FC' cannot be represented in the current code page (1253)
+     1>c:\users\jim\desktop\autorun\autorun\Form7.h(193): warning C4566: character represented by universal-character-name '\u00FC' cannot be represented in the current code page (1253)
+         Form13.cpp
+         Form14.cpp
+         Form2.cpp
+     1>c:\users\jim\desktop\autorun\autorun\Form9.h(207): warning C4566: character represented by universal-character-name '\u00E4' cannot be represented in the current code page (1253)
+     1>c:\users\jim\desktop\autorun\autorun\Form7.h(193): warning C4566: character represented by universal-character-name '\u00FC' cannot be represented in the current code page (1253)
+     1>c:\users\jim\desktop\autorun\autorun\Form7.h(193): warning C4566: character represented by universal-character-name '\u00FC' cannot be represented in the current code page (1253)
+     1>c:\users\jim\desktop\autorun\autorun\Form7.h(193): warning C4566: character represented by universal-character-name '\u00FC' cannot be represented in the current code page (1253)
+         Form3.cpp
+         Form5.cpp
+         Generating Code...
+         All outputs are up-to-date.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.DirectoryServices.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form14.resx,Debug\autorun.Form14.resources
+         Processing resource file "Form14.resx" into "Debug\autorun.Form14.resources".
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         d:\New Folder\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jim\Desktop\autorun\Debug\autorun.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\autorun.Form1.resources /ASSEMBLYRESOURCE:Debug\autorun.Form10.resources /ASSEMBLYRESOURCE:Debug\autorun.Form11.resources /ASSEMBLYRESOURCE:Debug\autorun.Form12.resources /ASSEMBLYRESOURCE:Debug\autorun.Form13.resources /ASSEMBLYRESOURCE:Debug\autorun.Form14.resources /ASSEMBLYRESOURCE:Debug\autorun.Form2.resources /ASSEMBLYRESOURCE:Debug\autorun.Form3.resources /ASSEMBLYRESOURCE:Debug\autorun.Form4.resources /ASSEMBLYRESOURCE:Debug\autorun.Form5.resources /ASSEMBLYRESOURCE:Debug\autorun.Form6.resources /ASSEMBLYRESOURCE:Debug\autorun.Form7.resources /ASSEMBLYRESOURCE:Debug\autorun.Form8.resources /ASSEMBLYRESOURCE:Debug\autorun.Form9.resources /MANIFEST /ManifestFile:"Debug\autorun.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jim\Desktop\autorun\Debug\autorun.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\autorun.obj
+         Debug\Form10.obj
+         Debug\Form11.obj
+         Debug\Form12.obj
+         Debug\Form13.obj
+         Debug\Form14.obj
+         Debug\Form2.obj
+         Debug\Form3.obj
+         Debug\Form4.obj
+         Debug\Form5.obj
+         Debug\Form6.obj
+         Debug\Form7.obj
+         Debug\Form8.obj
+         Debug\Form9.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         autorun.vcxproj -> C:\Users\jim\Desktop\autorun\Debug\autorun.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\jim\Desktop\autorun\Debug\autorun.exe;#1" /manifest Debug\autorun.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\autorun.unsuccessfulbuild".
+         Touching "Debug\autorun.lastbuildstate".
+     1>Done Building Project "C:\Users\jim\Desktop\autorun\autorun\autorun.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.43
